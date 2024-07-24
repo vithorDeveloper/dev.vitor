@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  padding: 2rem 0 0 2rem;
+  padding: 2rem 0 2rem 2rem;
 
   font-size: 1.3rem;
 

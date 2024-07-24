@@ -24,7 +24,7 @@ export const MeusProjeto = () => {
                     }
         />
         <CardProjeto 
-          imagem={"/src/assets/projetos/gcc.png"}
+          imagem={"/src/assets/projetos/2.png"}
           titulo={"FindAFriend"}
           descricao={`Uma aplicação sobre uma Ong de proteção e adoção de animais,
                       desenvolvida em um desafio na Rocketseat, ela é totalmente
@@ -32,7 +32,7 @@ export const MeusProjeto = () => {
                     }
         />
         <CardProjeto 
-          imagem={"/src/assets/projetos/gcc.png"}
+          imagem={"/src/assets/projetos/3.png"}
           titulo={"FindAFriend"}
           descricao={`Uma aplicação sobre uma Ong de proteção e adoção de animais,
                       desenvolvida em um desafio na Rocketseat, ela é totalmente
@@ -40,7 +40,7 @@ export const MeusProjeto = () => {
                     }
         />
         <CardProjeto 
-          imagem={"/src/assets/projetos/gcc.png"}
+          imagem={"/src/assets/projetos/4.png"}
           titulo={"FindAFriend"}
           descricao={`Uma aplicação sobre uma Ong de proteção e adoção de animais,
                       desenvolvida em um desafio na Rocketseat, ela é totalmente
@@ -48,7 +48,7 @@ export const MeusProjeto = () => {
                     }
         />
         <CardProjeto 
-          imagem={"/src/assets/projetos/gcc.png"}
+          imagem={"/src/assets/projetos/5.png"}
           titulo={"FindAFriend"}
           descricao={`Uma aplicação sobre uma Ong de proteção e adoção de animais,
                       desenvolvida em um desafio na Rocketseat, ela é totalmente
@@ -56,7 +56,7 @@ export const MeusProjeto = () => {
                     }
         />
         <CardProjeto 
-          imagem={"/src/assets/projetos/gcc.png"}
+          imagem={"/src/assets/projetos/6.png"}
           titulo={"FindAFriend"}
           descricao={`Uma aplicação sobre uma Ong de proteção e adoção de animais,
                       desenvolvida em um desafio na Rocketseat, ela é totalmente
@@ -64,7 +64,7 @@ export const MeusProjeto = () => {
                     }
         />
         <CardProjeto 
-          imagem={"/src/assets/projetos/gcc.png"}
+          imagem={"/src/assets/projetos/7.png"}
           titulo={"FindAFriend"}
           descricao={`Uma aplicação sobre uma Ong de proteção e adoção de animais,
                       desenvolvida em um desafio na Rocketseat, ela é totalmente
@@ -72,7 +72,39 @@ export const MeusProjeto = () => {
                     }
         />
         <CardProjeto 
-          imagem={"/src/assets/projetos/gcc.png"}
+          imagem={"/src/assets/projetos/8.png"}
+          titulo={"FindAFriend"}
+          descricao={`Uma aplicação sobre uma Ong de proteção e adoção de animais,
+                      desenvolvida em um desafio na Rocketseat, ela é totalmente
+                      responsiva.`
+                    }
+        />
+        <CardProjeto 
+          imagem={"/src/assets/projetos/9.png"}
+          titulo={"FindAFriend"}
+          descricao={`Uma aplicação sobre uma Ong de proteção e adoção de animais,
+                      desenvolvida em um desafio na Rocketseat, ela é totalmente
+                      responsiva.`
+                    }
+        />
+        <CardProjeto 
+          imagem={"/src/assets/projetos/10.png"}
+          titulo={"FindAFriend"}
+          descricao={`Uma aplicação sobre uma Ong de proteção e adoção de animais,
+                      desenvolvida em um desafio na Rocketseat, ela é totalmente
+                      responsiva.`
+                    }
+        />
+        <CardProjeto 
+          imagem={"/src/assets/projetos/11.png"}
+          titulo={"FindAFriend"}
+          descricao={`Uma aplicação sobre uma Ong de proteção e adoção de animais,
+                      desenvolvida em um desafio na Rocketseat, ela é totalmente
+                      responsiva.`
+                    }
+        />
+        <CardProjeto 
+          imagem={"/src/assets/projetos/12.png"}
           titulo={"FindAFriend"}
           descricao={`Uma aplicação sobre uma Ong de proteção e adoção de animais,
                       desenvolvida em um desafio na Rocketseat, ela é totalmente

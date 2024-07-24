@@ -6,9 +6,7 @@ export const Container = styled.section`
 
   font-size: 1.3rem;
 
-  /* padding: 2rem; */
-
-  width: 20.5rem;
+  width: 20rem;
 
   img{
     text-align: center;

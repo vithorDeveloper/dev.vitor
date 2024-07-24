@@ -1,11 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  padding: 2rem 0 0 2rem;
+  padding: 2rem 0 2rem 2rem;
 
   font-size: 1.3rem;
-
-  width: 100%;
 
   p{
     padding-top: 1rem;
@@ -20,13 +18,13 @@ export const Container = styled.section`
   div{
   
     h3{
-    padding: 2rem 0 1rem 0;
+      padding: 2rem 0 1rem 0;
     }
 
     .projetos{
       display: flex;
       flex-wrap: wrap;
-      gap: 1.6rem;
+      gap: 1.5rem;
     }
   }
 `
