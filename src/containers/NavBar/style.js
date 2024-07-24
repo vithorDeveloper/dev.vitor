@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
 export const Nav = styled.nav`
+  position: fixed;
+  border-right: 1px solid rgba(130, 87, 229, .3);
+
+  padding-right: 1rem;
+  height: 100vh;
 
   .inicio{
     font-weight: 300;
@@ -29,6 +34,10 @@ export const Nav = styled.nav`
     gap: .3rem;
 
     cursor: pointer;
+
+    color: #ecf0f1;
+
+    text-decoration: none;
   }
 
   ul{
@@ -48,7 +57,7 @@ export const Nav = styled.nav`
       font-weight: 300;
       font-size: .9rem;
 
-      padding: .8rem 0;
+      padding: .8rem .5rem .8rem 0;
 
       &:hover{
         background-color: #1e293b;

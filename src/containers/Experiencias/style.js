@@ -46,7 +46,7 @@ export const Container = styled.section`
     transition: all .2s;
 
     &:hover {
-      background-color: rgba(130, 87, 229, .8);
+      background-color: rgba(130, 87, 229, .6);
     }
   }
 `

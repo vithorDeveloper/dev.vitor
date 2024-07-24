@@ -1,13 +1,18 @@
+import { BrowserRouter } from 'react-router-dom'
+
 import { Container } from "./style"
-import { Menu } from "./containers/Menu"
 import { NavBar } from "./containers/NavBar"
+import { Rotas } from "/src/routes/route"
 
 export const App = () => {
   return (
+    <BrowserRouter>
       <Container>
-        <NavBar/>
-
-        <Menu/>
+        <div>
+          <NavBar/>
+        </div>
+        <Rotas/>
       </Container>
+    </BrowserRouter>
     )
 }
