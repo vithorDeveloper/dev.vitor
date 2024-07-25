@@ -8,6 +8,16 @@ export const Container = styled.section`
 
   width: 20rem;
 
+  &:hover{
+
+    img{
+      transition: all .8s;
+      transform: scale(1.05);
+      opacity: 1;
+      border-radius: 0;
+    }
+  }
+
   img{
     text-align: center;
     width: 16rem;
@@ -15,6 +25,8 @@ export const Container = styled.section`
     border-radius: .5rem;
 
     margin: 2rem 0 1rem 2rem;
+
+    opacity: .5;
   }
 
   p{

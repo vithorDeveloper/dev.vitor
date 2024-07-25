@@ -8,7 +8,7 @@ export const Container = styled.section`
   p{
     padding-top: 1rem;
 
-    font-size: 1rem;
+    font-size: 1rem; 
 
     opacity: .6;
 
