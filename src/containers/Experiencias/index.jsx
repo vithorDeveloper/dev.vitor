@@ -27,7 +27,7 @@ export const Experiencia = () => {
         />
       </div>
 
-        <a href="/public/Carlos - CV.pdf" download>Meu Curriculo</a>
+        <a download href="/public/documents/Carlos - CV.pdf">Meu Curriculo</a>
           
     </Container>
   )
