@@ -3,7 +3,7 @@ import { Container } from "./style"
 export const Header = () => {
   return(
     <Container>
-      <img src="../../assets/perfill.png" alt="foto de perfil" />
+      <img src="/public/perfill.png" alt="foto de perfil" />
     
       <section>
         <div>
