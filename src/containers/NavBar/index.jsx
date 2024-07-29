@@ -34,7 +34,7 @@ export const NavBar = () => {
         <ul>
           <p>meu hob</p>
             <li>
-              <a><Book size={24}/>Leitura</a>
+              <NavLink to="/Livros"><Book size={24}/>Leitura</NavLink>
             </li>
         </ul>
 
