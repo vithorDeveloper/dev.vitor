@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { GithubLogo,Link } from "@phosphor-icons/react"
+import { GithubLogo, Link } from "@phosphor-icons/react"
 import { Container } from "./style"
 
 export const CardProjeto = ({imagem, descricao, titulo}) => {

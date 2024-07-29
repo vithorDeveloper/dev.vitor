@@ -13,21 +13,21 @@ export const Experiencia = () => {
 
       <div className="experiencias">
         <Title 
-          imagem={"/src/assets/alcateia.png"}
+          imagem={"/alcateia.png"}
           empresa={"Alcatéia barbearia"}
           cargo={"Social media"}
           data={"2024 - Atual"}
         />
 
         <Title 
-          imagem={"/src/assets/brotto.png"}
+          imagem={"/brotto.png"}
           empresa={"Frutaria Brotto"}
           cargo={"Açougueiro"}
           data={"2015 - 2021 | 5 anos e 10 meses"}
         />
       </div>
 
-        <a download href="/public/documents/Carlos - CV.pdf">Meu Curriculo</a>
+        <a download href="/Carlos - CV.pdf">Meu Curriculo</a>
           
     </Container>
   )

@@ -13,21 +13,21 @@ export const Educacao = () => {
 
     <div className="educacao">
       <Title 
-        imagem={"/src/assets/ebac.webp"}
+        imagem={"/ebac.webp"}
         empresa={"Escola Britânica de Artes Criativas & Tecnologia"}
         cargo={"Desenvolvedor Front-end"}
         data={"2023 - 2024 | 6 meses"}
       />
 
       <Title 
-        imagem={"/src/assets/roocket.png"}
+        imagem={"/roocket.png"}
         empresa={"Rocketseat"}
         cargo={"Desenvolvedor Full-Stack"}
         data={"2021 - 2022 | 1 ano"}
       />
 
       <Title 
-        imagem={"/src/assets/unip.png"}
+        imagem={"/unip.png"}
         empresa={"Universidade Paulista"}
         cargo={"Análise e desenolvimento de sistemas"}
         data={"2020 - 2021 | 2 anos"}

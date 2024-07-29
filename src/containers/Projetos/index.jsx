@@ -20,7 +20,7 @@ export const Projetos = () => {
 
         <div className="ladoDireito">
           <CardProjeto 
-            imagem={"/src/assets/projeto1.png"}
+            imagem={"/projetos/projeto1.png"}
             titulo={"FoodExplorer"}
             descricao={"O Food Explorer é um Web App que oferece um menu interativo para explorar pratos e bebidas com detalhes visuais."}
           />
@@ -28,7 +28,7 @@ export const Projetos = () => {
 
         <div className="ladoEsquerdo">
           <CardProjeto 
-            imagem={"/src/assets/projeto2.png"}
+            imagem={"/projetos/projeto2.png"}
             titulo={"TypeWeather"}
             descricao={"Essa aplicação oferece informações detalhadas sobre o clima em qualquer cidade, incluindo temperatura, umidade, velocidade do vento e direção."}
           />
@@ -36,7 +36,7 @@ export const Projetos = () => {
 
         <div className="ladoDireito">
           <CardProjeto 
-            imagem={"/src/assets/projeto3.png"}
+            imagem={"/projetos/projeto3.png"}
             titulo={"RocketMovies"}
             descricao={"O seu diário de filmes permite que você tome notas e classifique cada filme que assistir. Registre suas impressões, avalie a trama, os personagens e até mesmo adicione suas cenas favoritas. Nunca mais esqueça de um filme incrível!"}
           />
@@ -44,7 +44,7 @@ export const Projetos = () => {
 
         <div className="ladoEsquerdo">
           <CardProjeto 
-            imagem={"/src/assets/projeto4.png"}
+            imagem={"/projetos/projeto4.png"}
             titulo={"Efood"}
             descricao={"Permite que os clientes explorem restaurantes, visualizem seus pratos e façam pedidos diretamente pela plataforma. Com fotos e descrições detalhadas, os usuários podem escolher seus pratos favoritos e até mesmo efetuar o pagamento online. Uma alternativa segura e conveniente para os amantes da gastronomia!"}
           />
