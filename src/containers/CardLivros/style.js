@@ -12,6 +12,15 @@ export const Container = styled.main`
  padding: 2rem;
  margin-bottom: 3rem;
 
+ opacity: .5;
+
+ transition: all 0.5s;
+
+ &:hover{
+  opacity: 1;
+  scale: 1.03;
+ }
+
  section{
   display: flex;
   gap: 1rem;

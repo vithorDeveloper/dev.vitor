@@ -41,16 +41,16 @@ export const NavBar = () => {
         <ul>
           <p>Redes sociais</p>
             <li>
-              <a><LinkedinLogo size={24}/>Linkedin</a>
+              <a href="https://www.linkedin.com/in/vithor-santos/" target="_blank"><LinkedinLogo size={24}/>Linkedin</a>
             </li>
             <li>
-              <a><GithubLogo size={24}/>Github</a>
+              <a href="https://github.com/vithorDeveloper" target="_blank"><GithubLogo size={24}/>Github</a>
             </li>
             <li>
-              <a><Phone size={24}/>Wathsapp</a>
+              <a href="https://wa.me/5519993016396" target="_blank"><Phone size={24}/>Wathsapp</a>
             </li>
             <li>
-              <a><EnvelopeSimple size={24}/>Email</a>
+              <a href="mailto:vithorsantos1029@gmail.com" target="_blank"><EnvelopeSimple size={24}/>Email</a>
             </li>
         </ul>
     </Nav>

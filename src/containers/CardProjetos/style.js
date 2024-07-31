@@ -7,6 +7,7 @@ export const Container = styled.section`
   font-size: 1.3rem;
 
   width: 20rem;
+  height: 100%;
 
   &:hover{
 
@@ -29,59 +30,70 @@ export const Container = styled.section`
     opacity: .5;
   }
 
-  p{
-    padding-top: 1rem;
-
-    font-size: 1rem;
-
-    opacity: .6;
-
-    line-height: 1.5rem;
-  }
-
-  .descricao{
-    margin-left: 2rem;
-  }
-
-  .buttons{
+  .contain{
     display: flex;
-    gap: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
 
-    padding: .7rem 2rem 0 0;
-    margin: 0 0 2rem 2rem;
+    height: 15rem;
 
-    a{
-      display: flex;
-      align-items: center;
-      gap: .3rem;
-
-      text-decoration: none;
-
-      font-weight: bold;
-      font-size: .8rem;
-
-      padding: .4rem .6rem;
-
-      border-radius: .3rem;
-
-      background-color: #8257e5;
-      color: #ecf0f1;
-
-      transition: all .2s;
-
-      &:hover {
-        background-color: rgba(130, 87, 229, .6);
-      }
+    p{
+      padding-top: 1rem;
+  
+      font-size: 1rem;
+  
+      opacity: .6;
+  
+      line-height: 1.5rem;
     }
+  
+    .descricao{
+      margin-left: 2rem;
+    }
+  
+    .buttons{
+      display: flex;
+      gap: 1rem;
+  
+      padding: .7rem 2rem 0 0;
+      margin: 0 0 2rem 2rem;
 
-    #git{
-      background-color: transparent;
-
-      border: 1px solid rgba(130, 87, 229, .8);
-
-      &:hover{
-        background-color: rgba(130, 87, 229, .8);
+      
+      a{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: .3rem;
+  
+        text-decoration: none;
+  
+        font-weight: bold;
+        font-size: .8rem;
+  
+        padding: .4rem .6rem;
+  
+        border-radius: .3rem;
+  
+        background-color: #8257e5;
+        color: #ecf0f1;
+  
+        transition: all .2s;
+  
+        &:hover {
+          background-color: rgba(130, 87, 229, .6);
+        }
+      }
+  
+      #git{
+        background-color: transparent;
+  
+        border: 1px solid rgba(130, 87, 229, .8);
+  
+        &:hover{
+          background-color: rgba(130, 87, 229, .8);
+        }
       }
     }
   }
+
 `

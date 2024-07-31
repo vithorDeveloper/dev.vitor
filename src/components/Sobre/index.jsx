@@ -1,5 +1,6 @@
 import { ArrowUpRight, IdentificationBadge } from "@phosphor-icons/react";
 import { Container } from "./style";
+import { NavLink } from "react-router-dom";
 
 export const Sobre = () => {
 
@@ -11,7 +12,7 @@ export const Sobre = () => {
         </div>
 
         <div className="saibaMais">
-          <a href="#">Saiba mais</a><ArrowUpRight size={18}/>
+          <NavLink to="/SobreMim">Saiba mais</NavLink><ArrowUpRight size={18}/>
         </div>
       </div>
 

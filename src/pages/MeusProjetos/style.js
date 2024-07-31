@@ -15,6 +15,14 @@ export const Container = styled.section`
     line-height: 1.5rem;
   }
 
+  a{
+    cursor: pointer;
+
+    color: rgb(130, 87, 250);
+
+    font-weight: bold;
+  }
+
   div{
   
     h3{

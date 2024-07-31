@@ -2,7 +2,7 @@
 import { GithubLogo, Link } from "@phosphor-icons/react"
 import { Container } from "./style"
 
-export const CardProjeto = ({imagem, titulo, descricao}) => {
+export const CardProjeto = ({imagem, titulo, descricao, urlProjeto, urlCodigo}) => {
 
   return(
     <Container>
@@ -15,8 +15,8 @@ export const CardProjeto = ({imagem, titulo, descricao}) => {
         <span>{descricao}</span>
 
         <div className="buttons">
-          <a id="git" href=""><GithubLogo size={18}/>Código-fonte</a>
-          <a href=""><Link size={18}/>Visitar</a>
+          <a id="git" href={urlCodigo} target="_blank"><GithubLogo size={18}/>Código-fonte</a>
+          <a href={urlProjeto} target="_blank"><Link size={18}/>Visitar</a>
         </div>
       </div>
 

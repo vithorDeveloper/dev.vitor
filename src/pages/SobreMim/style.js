@@ -45,6 +45,10 @@ export const Container = styled.section`
 `
 
 export const Section = styled.section`
+  a{
+    color: rgb(130, 87, 229);
+  }
+
   i{
     font-size: .8rem;
   }

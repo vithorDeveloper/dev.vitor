@@ -28,7 +28,7 @@ export const SobreMim = () => {
       <Section>
         <div className="fotoTurma">
           <img src="/src/assets/fotos/turma.jpeg" alt="foto da turna"/>
-          <i>foto da turma de ADS, de 2020 na <a href="">UNIP</a></i>
+          <i>foto da turma de ADS, de 2020 na <a href="https://www.unip.br/" target="_blank">UNIP</a></i>
         </div>
 
         <div className="texto">
@@ -40,7 +40,7 @@ export const SobreMim = () => {
             de ser programador surgiu em 2014, durante uma feira municipal de tecnologia no Piauí. Sim, 
             sou natural do Piauí, mas estou em Campinas desde 2015. Mudei-me para cá em busca de uma vida
             melhor, como tantos outros. Após aquela feira, aproveitei o desejo que nasceu em mim e prestei
-            vestibular para o curso técnico em informática no <a href="">Instituto Federal do Piauí (IFPI)</a>. Passei e
+            vestibular para o curso técnico em informática no <a href="https://www.ifpi.edu.br/" target="_blank">Instituto Federal do Piauí (IFPI)</a>. Passei e
             comecei o curso em 2015.
             <br />
             <br />
@@ -53,7 +53,7 @@ export const SobreMim = () => {
 
         <div className="fotoAcougue">
           <img src="/src/assets/fotos/acougue.jpeg" alt="foto minha no açougue"/>
-          <i>foto da equipe de açougueiros da <a href="">Frutaria Brotto</a>, em 2019</i>
+          <i>foto da equipe de açougueiros da <a href="https://www.instagram.com/frutaria.brotto/" target="_blank">Frutaria Brotto</a>, em 2019</i>
         </div>
 
         <div className="texto">
@@ -83,7 +83,7 @@ export const SobreMim = () => {
         <div className="fotoUnip">
           <div>
             <img src="/src/assets/fotos/unip.png" alt="foto minha na formatura"/>
-            <i>foto do dia da minha formatura na <a href="">UNIP</a>, em 2021</i>
+            <i>foto do dia da minha formatura na <a href="https://www.unip.br/" target="_blank">UNIP</a>, em 2021</i>
           </div>
         </div>
 
@@ -112,8 +112,8 @@ export const SobreMim = () => {
         <div className="fotoRocket">
           <img src="/src/assets/fotos/rocketseat.jpeg" alt="foto minha no açougue"/>
           <i>
-            foto minha estudando no  <a href="">Program Explorer</a>, 
-            da <a href="">Rocketseat</a> em 2022.
+            foto minha estudando no  <a href="https://app.rocketseat.com.br/journey/full-stack/overview" target="_blank">Program Explorer</a>, 
+            da <a href="https://app.rocketseat.com.br/" target="_blank">Rocketseat</a> em 2022.
           </i>
         </div>
 
@@ -135,10 +135,10 @@ export const SobreMim = () => {
         </div>
 
         <div className="redesSocias">
-          <a id="git" href=""><LinkedinLogo size={18}/>Linkedin</a>
-          <a id="git" href=""><Phone size={18}/>Wathsapp</a>
-          <a id="git" href=""><EnvelopeSimple size={18}/>Email</a>
-          <a id="git" href=""><GithubLogo size={18}/>Github</a>
+          <a id="git" href="https://www.linkedin.com/in/vithor-santos/" target="_blank"><LinkedinLogo size={18}/>Linkedin</a>
+          <a id="git" href="https://wa.me/5519993016396" target="_blank"><Phone size={18}/>Wathsapp</a>
+          <a id="git" href="mailto:vithorsantos1029@gmail.com" target="_blank"><EnvelopeSimple size={18}/>Email</a>
+          <a id="git" href="https://github.com/vithorDeveloper" target="_blank"><GithubLogo size={18}/>Github</a>
         </div>
       </Section>
     </Container>
