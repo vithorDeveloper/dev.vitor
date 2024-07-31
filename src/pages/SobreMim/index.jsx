@@ -19,15 +19,15 @@ export const SobreMim = () => {
         <li>Hobs: <span>Ler livro, Escrever, Ouvir música e Cozinhar</span></li>
         <li>Meus livros preferidos:</li>
           <div className="livros">
-            <img src="src/assets/livros/1.png" alt="foto da capa do livro essencialismo" />
-            <img src="/src/assets/livros/2.png" alt="foto da capa do livro ultra-aprendizado" />
-            <img src="/src/assets/livros/3.png" alt="foto da capa do livro O homem mais rico da babilonia" />
+            <img src="/public/livros/1.png" alt="foto da capa do livro essencialismo" />
+            <img src="/public/livros/2.png" alt="foto da capa do livro ultra-aprendizado" />
+            <img src="/public/livros/3.png" alt="foto da capa do livro O homem mais rico da babilonia" />
           </div>
       </ul>
 
       <Section>
         <div className="fotoTurma">
-          <img src="/src/assets/fotos/turma.jpeg" alt="foto da turna"/>
+          <img src="/public/fotos/turma.jpeg" alt="foto da turna"/>
           <i>foto da turma de ADS, de 2020 na <a href="https://www.unip.br/" target="_blank">UNIP</a></i>
         </div>
 
@@ -52,7 +52,7 @@ export const SobreMim = () => {
         </div>
 
         <div className="fotoAcougue">
-          <img src="/src/assets/fotos/acougue.jpeg" alt="foto minha no açougue"/>
+          <img src="/public/fotos/acougue.jpeg" alt="foto minha no açougue"/>
           <i>foto da equipe de açougueiros da <a href="https://www.instagram.com/frutaria.brotto/" target="_blank">Frutaria Brotto</a>, em 2019</i>
         </div>
 
@@ -82,7 +82,7 @@ export const SobreMim = () => {
 
         <div className="fotoUnip">
           <div>
-            <img src="/src/assets/fotos/unip.png" alt="foto minha na formatura"/>
+            <img src="/public/fotos/unip.png" alt="foto minha na formatura"/>
             <i>foto do dia da minha formatura na <a href="https://www.unip.br/" target="_blank">UNIP</a>, em 2021</i>
           </div>
         </div>
@@ -110,7 +110,7 @@ export const SobreMim = () => {
         </div>
 
         <div className="fotoRocket">
-          <img src="/src/assets/fotos/rocketseat.jpeg" alt="foto minha no açougue"/>
+          <img src="/public/fotos/rocketseat.jpeg" alt="foto minha no açougue"/>
           <i>
             foto minha estudando no  <a href="https://app.rocketseat.com.br/journey/full-stack/overview" target="_blank">Program Explorer</a>, 
             da <a href="https://app.rocketseat.com.br/" target="_blank">Rocketseat</a> em 2022.

@@ -15,7 +15,7 @@ export const Livros = () => {
       </p>
 
       <CardLivros 
-        imagemLivro={"/src/assets/livros/1.png"}
+        imagemLivro={"/public/livros/1.png"}
         titulo={"Ultra-Aprendizado"}
         descricao={
           `O livro Ultra-aprendizado de Scott H. Young oferece métodos inovadores para 
@@ -27,11 +27,11 @@ export const Livros = () => {
         autor={"Scott Young"} 
         editora={"HarperCollins"}
         paginas={"304"}
-        imagemAutor={"/src/assets/livros/scott.jpg"}
+        imagemAutor={"/public/livros/scott.jpg"}
       />
 
       <CardLivros 
-        imagemLivro={"/src/assets/livros/2.png"}
+        imagemLivro={"/public/livros/2.png"}
         titulo={"Essencialismo"}
         descricao={
           `Ao tentar fazer tudo e agradar a todos, você acaba se afastando de seus 
@@ -43,11 +43,11 @@ export const Livros = () => {
         autor={"Greg Mckeown"} 
         editora={"Editora Sextante"}
         paginas={"272"}
-        imagemAutor={"/src/assets/livros/greg.jpg"}
+        imagemAutor={"/public/livros/greg.jpg"}
       />
 
       <CardLivros 
-        imagemLivro={"/src/assets/livros/3.png"}
+        imagemLivro={"/public/livros/3.png"}
         titulo={"O homem mais rico da Babilônia"}
         descricao={
           `George S. Clason, baseado na sabedoria financeira dos antigos babilônios, apresenta 
@@ -59,11 +59,11 @@ export const Livros = () => {
         autor={"George S. Clason"} 
         editora={"HarperCollins"}
         paginas={"160"}
-        imagemAutor={"/src/assets/livros/george.jpeg"}
+        imagemAutor={"/public/livros/george.jpeg"}
       />
 
       <CardLivros 
-        imagemLivro={"/src/assets/livros/4.png"}
+        imagemLivro={"/public/livros/4.png"}
         titulo={"Mais esperto que o diabo"}
         descricao={
           `Neste livro, Napoleon Hill revela uma entrevista secreta com o Diabo, desvendando aspectos 
@@ -74,11 +74,11 @@ export const Livros = () => {
         autor={"Napoleon Hill"} 
         editora={"Citadel"}
         paginas={"208"}
-        imagemAutor={"/src/assets/livros/napoleon.jpg"}
+        imagemAutor={"/public/livros/napoleon.jpg"}
       />
       
       <CardLivros 
-        imagemLivro={"/src/assets/livros/5.png"}
+        imagemLivro={"/public/livros/5.png"}
         titulo={"Quem pensa enriquece"}
         descricao={
           `O livro Quem Pensa Enriquece - O Legado é o 9 livro mais vendido de todos os tempos e 
@@ -89,11 +89,11 @@ export const Livros = () => {
         autor={"Napoleon Hill"} 
         editora={"Citadel"}
         paginas={"368"}
-        imagemAutor={"/src/assets/livros/napoleon.jpg"}
+        imagemAutor={"/public/livros/napoleon.jpg"}
       />
 
       <CardLivros 
-        imagemLivro={"/src/assets/livros/6.png"}
+        imagemLivro={"/public/livros/6.png"}
         titulo={"Os segredos da mente milionária"}
         descricao={
           `T. Harv Eker propõe em seu livro que a riqueza não é apenas uma questão de sorte ou 
@@ -105,11 +105,11 @@ export const Livros = () => {
         autor={"T. Harv Eker"} 
         editora={"Editora Sextante"}
         paginas={"176"}
-        imagemAutor={"/src/assets/livros/harv.jpeg"}
+        imagemAutor={"/public/livros/harv.jpeg"}
       />
 
       <CardLivros 
-        imagemLivro={"/src/assets/livros/7.png"}
+        imagemLivro={"/public/livros/7.png"}
         titulo={"Pai rico, Pai pobre"}
         descricao={
           `Em Pai Rico, Pai Pobre, Robert Kiyosaki destaca que a escola não prepara os jovens 
@@ -120,11 +120,11 @@ export const Livros = () => {
         autor={"Robert T. Kiyosaki"} 
         editora={"Alta Books"}
         paginas={"336"}
-        imagemAutor={"/src/assets/livros/robert.jpg"}
+        imagemAutor={"/public/livros/robert.jpg"}
       />
 
       <CardLivros 
-        imagemLivro={"/src/assets/livros/8.png"}
+        imagemLivro={"/public/livros/8.png"}
         titulo={"O poder do hábito"}
         descricao={
           `O livro O Poder do Hábito, escrito por Charles Duhigg, explora como os hábitos 
@@ -135,11 +135,11 @@ export const Livros = () => {
         autor={"Charles Duhigg"} 
         editora={"Objetiva"}
         paginas={"408"}
-        imagemAutor={"/src/assets/livros/charles.jpg"}
+        imagemAutor={"/public/livros/charles.jpg"}
       />
 
       <CardLivros 
-        imagemLivro={"/src/assets/livros/9.png"}
+        imagemLivro={"/public/livros/9.png"}
         titulo={"A sútil arte de liga o foda-se"}
         descricao={
           `A Sutil Arte de Ligar o F*da-se é uma obra que foge dos clichês típicos de autoajuda. 
@@ -151,11 +151,11 @@ export const Livros = () => {
         autor={"Mark Manson"} 
         editora={"Intrínseca"}
         paginas={"224"}
-        imagemAutor={"/src/assets/livros/mark.jpg"}
+        imagemAutor={"/public/livros/mark.jpg"}
       />
 
       <CardLivros 
-        imagemLivro={"/src/assets/livros/10.png"}
+        imagemLivro={"/public/livros/10.png"}
         titulo={"Hábitos atômicos"}
         descricao={
           `Com uma abordagem científica, Clear explora a neurociência por trás dos hábitos e 
@@ -167,11 +167,11 @@ export const Livros = () => {
         autor={"James Clear"} 
         editora={"Alfa Life"}
         paginas={"320"}
-        imagemAutor={"/src/assets/livros/james.jpg"}
+        imagemAutor={"/public/livros/james.jpg"}
       />
 
       <CardLivros 
-        imagemLivro={"/src/assets/livros/11.png"}
+        imagemLivro={"/public/livros/11.png"}
         titulo={"O milagre da manhã"}
         descricao={
           `Hal Elrod nos conduz por uma jornada de transformação pessoal e sucesso. Elrod sugere 
@@ -182,11 +182,11 @@ export const Livros = () => {
         autor={"Hal Elrod"} 
         editora={"BestSeller"}
         paginas={"196"}
-        imagemAutor={"/src/assets/livros/hal.jpg"}
+        imagemAutor={"/public/livros/hal.jpg"}
       />
 
       <CardLivros 
-        imagemLivro={"/src/assets/livros/12.png"}
+        imagemLivro={"/public/livros/12.png"}
         titulo={"Trabalhe 4 horas por semana"}
         descricao={
           `Tim Ferriss, autor deste livro, explora como viver uma vida rica e plena sem se prender ao 
@@ -198,7 +198,7 @@ export const Livros = () => {
         autor={"Timothy Ferriss"} 
         editora={"Planeta"}
         paginas={"416"}
-        imagemAutor={"/src/assets/livros/timoty.jpg"}
+        imagemAutor={"/public/livros/timoty.jpg"}
       />
     </Container>
   )
