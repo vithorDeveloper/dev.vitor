@@ -18,12 +18,20 @@ export const Container = styled.div`
     width: 102%;
   
     border-radius: .5rem;
+
+    @media screen and (max-width: 1024px) {
+      width: 100%;
+    }
   }
 }
 
 .infos{
   position: relative;
   top: 0;
+
+  @media screen and (max-width: 1024px) {
+    width: 37rem;
+  }
 
   p{
     font-weight: bold;

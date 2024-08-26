@@ -5,9 +5,13 @@ export const Container = styled.section`
   border-radius: .5rem;
 
   margin: 1.6rem 0 2rem 0;
-  padding: 2rem;
+  padding: 1.6rem;
 
-  height: 118vh;
+  height: 126vh;
+
+  @media screen and (max-width: 1024px) {
+    height: 146vh;
+  }
 
   .titulo{
     font-size: 1.3rem;
@@ -52,7 +56,12 @@ export const Container = styled.section`
     flex-direction: column;
     gap: 15rem;
 
+    @media screen and (max-width: 1024px) {
+     align-items: center;
+    }
+
     .ladoDireito{
+
       .infos{
         text-align: right;
       }

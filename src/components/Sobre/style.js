@@ -7,6 +7,12 @@ export const Container = styled.div`
   margin-top: 1.6rem;
   padding: 2rem;
 
+  width: 100%;
+
+  /* @media screen and (max-width: 1024px) {
+    max-width: 90%;
+  } */
+
   .titulo{
     font-size: 1.3rem;
     font-weight: bold;
@@ -49,5 +55,11 @@ export const Container = styled.div`
     font-weight: 100;
     font-size: .85rem;
     line-height: 1.5rem;
+
+    width: 100%;
+
+    /* @media screen and (max-width: 1024px) {
+    max-width: 90%;
+  } */
   }
 `

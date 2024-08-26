@@ -23,4 +23,8 @@ export const Container = styled.main`
 
   display: grid;
   grid-template-columns: 30% 70%;
+
+  @media screen and (max-width: 1024px) {
+   display: inline;
+  }
 `

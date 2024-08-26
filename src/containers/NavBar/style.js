@@ -7,6 +7,10 @@ export const Nav = styled.nav`
   padding-right: 1rem;
   height: 100vh;
 
+  @media screen and (max-width: 1024px) {
+    display: none;
+  }
+
   .inicio{
     font-weight: 300;
     font-size: .9rem;

@@ -33,6 +33,7 @@ export const Container = styled.header`
     .tecnologias{
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
       gap: 1rem;
 
       span{

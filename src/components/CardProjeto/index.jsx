@@ -7,7 +7,7 @@ export const CardProjeto = ({imagem, titulo, descricao, urlProjeto, urlCodigo}) 
   return(
     <Container>
       <div className="banner">
-        <img src={imagem} alt="imagem do projeto" />
+        <img src={imagem} alt="imagem do projeto" className="imagemDesktop"/>
       </div>
 
       <div className="infos">
