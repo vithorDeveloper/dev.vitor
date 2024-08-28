@@ -128,6 +128,8 @@ export const Container = styled.section`
   @media screen and (max-width: 500px) {
   
     .projetosMobile{
+      gap: 12rem;
+
       img{
         display: none;
       }

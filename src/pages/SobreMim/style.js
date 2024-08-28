@@ -32,6 +32,14 @@ export const Container = styled.section`
       display: flex;
       gap: 2rem;
 
+      @media screen and (max-width: 768px) {
+        flex-wrap: wrap;
+        margin-right: 1rem;
+
+        align-items: center;
+        justify-content: center;
+      }
+
       img{
         width: 9rem;
         height: 12rem;
