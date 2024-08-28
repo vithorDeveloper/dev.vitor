@@ -14,4 +14,15 @@ export const Container = styled.section`
 
     line-height: 1.5rem;
   }
+
+  @media screen and (max-width: 1024px) {
+
+    opacity: 1;
+
+    section{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
 `

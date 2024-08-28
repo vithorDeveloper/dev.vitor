@@ -16,6 +16,10 @@ export const Container = styled.main`
 
  transition: all 0.5s;
 
+ @media screen and (max-width: 1024px) {
+    opacity: 1;
+  }
+
  &:hover{
   opacity: 1;
   scale: 1.03;
@@ -32,6 +36,10 @@ export const Container = styled.main`
     height: 20rem;
 
     border-radius: .5rem;
+
+    @media screen and (max-width: 1024px) {
+      text-align: initial;
+    }
   }
 
   .infosLivro{
