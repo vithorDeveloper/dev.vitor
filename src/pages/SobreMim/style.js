@@ -5,6 +5,10 @@ export const Container = styled.section`
 
   font-size: 1.3rem;
 
+  @media screen and (max-width: 768px) {
+    padding-right: 1rem;
+  }
+
   p, span{
     padding-top: 1rem;
 
@@ -137,6 +141,10 @@ export const Section = styled.section`
 
     margin-top: 2rem;
 
+    @media screen and (max-width: 768px) {
+      font-size: .5rem;
+    }
+
     a{
         width: 20%;
 
@@ -162,6 +170,14 @@ export const Section = styled.section`
   
         &:hover {
           background-color: rgba(130, 87, 229, .6);
+        }
+
+        @media screen and (max-width: 768px) {
+          font-size: .7rem;
+
+          svg{
+            display: none;
+          }
         }
     }
   }

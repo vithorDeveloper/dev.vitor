@@ -17,6 +17,10 @@ export const Container = styled.section`
 `
 
 export const Section = styled.div`
+  @media screen and (max-width: 768px) {
+    margin-right: .8rem
+  }
+
   h3{
     padding: 2rem 0 1rem 0;
   }
@@ -31,6 +35,15 @@ export const Section = styled.div`
       border-radius: .3rem;
 
       width: 180px;
+    }
+
+    @media screen and (max-width: 768px) {
+      grid-template-columns: auto auto auto;
+    }
+
+    @media screen and (max-width: 500px) {
+      grid-template-columns: auto auto;
+      column-gap: 0;
     }
   }
 `
