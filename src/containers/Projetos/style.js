@@ -10,7 +10,7 @@ export const Container = styled.section`
   height: 116vh;
 
   @media screen and (max-width: 1024px) {
-    height: 116vh;
+    height: 136vh;
   }
 
   .titulo{

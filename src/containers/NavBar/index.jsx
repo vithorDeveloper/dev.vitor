@@ -47,7 +47,7 @@ export const NavBar = () => {
               <a href="https://github.com/vithorDeveloper" target="_blank"><GithubLogo size={24}/>Github</a>
             </li>
             <li>
-              <a href="https://wa.me/5519993016396" target="_blank"><Phone size={24}/>Wathsapp</a>
+              <a href="https://wa.me/5519993016396" target="_blank"><Phone size={24}/>Whatsapp</a>
             </li>
             <li>
               <a href="mailto:vithorsantos1029@gmail.com" target="_blank"><EnvelopeSimple size={24}/>Email</a>
