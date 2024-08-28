@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Nav = styled.nav`
   position: fixed;
   top: 0;
+  right: 0;
   z-index: 10;
   border-right: 1px solid rgba(130, 87, 229, .3);
 
@@ -12,6 +13,7 @@ export const Nav = styled.nav`
 
   background: rgba( 0, 0, 0, 0.35 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  -webkit-backdrop-filter: blur( 13.5px );
   backdrop-filter: blur( 10px );
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 

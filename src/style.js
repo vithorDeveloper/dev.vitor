@@ -17,8 +17,13 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   .menu{
-    position: absolute;
-    right: 1.5rem;
+    margin-left: 2rem;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .menu{
+      display: none;
+    }
   }
 `
 
@@ -28,10 +33,6 @@ export const Container = styled.main`
 
   display: grid;
   grid-template-columns: 30% 70%;
-
-  svg{
-    margin-left: 2rem;
-  }
 
   @media screen and (max-width: 1024px) {
    display: inline;
