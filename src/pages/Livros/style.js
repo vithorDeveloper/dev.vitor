@@ -16,13 +16,28 @@ export const Container = styled.section`
   }
 
   @media screen and (max-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 0 auto;
+
+    padding-left: 0;
 
     opacity: 1;
+
+    width: 90%;
 
     section{
       display: flex;
       flex-direction: column;
       justify-content: center;
+
+      width: 100%;
+
+      .infos{
+        padding-top: 1rem;
+      }
     }
   }
 `
