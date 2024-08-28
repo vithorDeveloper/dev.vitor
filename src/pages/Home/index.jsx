@@ -7,6 +7,7 @@ import { Projetos } from "../../containers/Projetos"
 import { Principal } from "./style"
 
 export const Home = () => {
+
   return(
     <Principal>
       <Header/>

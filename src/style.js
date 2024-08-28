@@ -15,6 +15,11 @@ export const GlobalStyle = createGlobalStyle`
 
     padding-top: 1rem;
   }
+
+  .menu{
+    position: absolute;
+    right: 1.5rem;
+  }
 `
 
 export const Container = styled.main`
@@ -23,6 +28,10 @@ export const Container = styled.main`
 
   display: grid;
   grid-template-columns: 30% 70%;
+
+  svg{
+    margin-left: 2rem;
+  }
 
   @media screen and (max-width: 1024px) {
    display: inline;
