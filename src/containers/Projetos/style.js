@@ -7,10 +7,10 @@ export const Container = styled.section`
   margin: 1.6rem 0 2rem 0;
   padding: 1.6rem;
 
-  height: 126vh;
+  height: 116vh;
 
   @media screen and (max-width: 1024px) {
-    height: 146vh;
+    height: 116vh;
   }
 
   .titulo{
@@ -60,6 +60,10 @@ export const Container = styled.section`
      align-items: center;
     }
 
+    @media screen and (max-width: 768px) {
+     display: none;
+    }
+
     .ladoDireito{
 
       .infos{
@@ -80,6 +84,57 @@ export const Container = styled.section`
           justify-content: left;
 
           padding-left: 2rem;
+        }
+      }
+    }
+  }
+
+  .projetosMobile{
+    display: none;
+  }
+
+  @media screen and (max-width: 768px) {
+  
+    .projetosMobile{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 15rem;
+
+      .infos{
+        width: 25rem;
+
+        text-align: center;
+
+        span{
+          margin-left: 2rem;
+          opacity: 1;
+        }
+
+        p{
+          margin-left: .5rem;
+        }
+
+        .buttons{
+          display: flex;
+          justify-content: center;
+          margin-left: 2rem;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+  
+    .projetosMobile{
+      img{
+        display: none;
+      }
+
+      .infos{
+        span{
+          opacity: 0.6;
         }
       }
     }
